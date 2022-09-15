@@ -1,0 +1,43 @@
+/* 1rem = 1em = 16px */
+
+/* 1360px  / 16 = 85 For Smaller Computers / Laptops */
+@media screen and (max-width: 86em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/* 1200px  / 16 = 75 For Smaller Landscape Tablets */
+@media screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .testimonials {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
