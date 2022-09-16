@@ -186,7 +186,60 @@
   }
 }
 
-/* 720px  / 16 = 45 For Smaller Tablet Devices */
+/* 592  / 16 = 37 For Mobile Phone Devices */
 
-@media screen and (max-width: 46em) {
+@media screen and (max-width: 37em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid-2-cols,
+  .grid-3-cols,
+  .grid-4-cols,
+  .grid-5-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero {
+    padding: 0 3.2rem;
+  }
+  .section--hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.2rem;
+  }
+  .hero-img {
+    max-width: 86%;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+  .child-1 {
+    grid-row: 1;
+  }
+  .child-6 {
+    grid-row: 5;
+  }
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+  .testimonials {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+  .cta-grid-box {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
 }
