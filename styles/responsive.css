@@ -146,10 +146,19 @@
     visibility: visible;
     transform: translateX(0);
   }
-  .icon-mobile-nav-close {
+  .nav-open .icon-mobile-nav-close {
     display: block;
   }
-  .icon-mobile-nav-open {
+  .nav-open .icon-mobile-nav-open {
     display: none;
+  }
+}
+
+/* 720px  / 16 = 45 For Smaller Tablet Devices */
+
+@media screen and (max-width: 46em) {
+  .grid-3-cols,
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
