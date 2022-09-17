@@ -1,0 +1,14 @@
+{
+  "icons": [
+    {
+      "src": "./img/rsz_2favicon-192.png",
+      "type": "images/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./img/favicon-2.png",
+      "type": "images/png",
+      "sizes": "512x512"
+    }
+  ]
+}
